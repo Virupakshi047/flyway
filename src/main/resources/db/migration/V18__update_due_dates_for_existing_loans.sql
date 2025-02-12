@@ -1,0 +1,1 @@
+UPDATE loans SET due_date = DATE_ADD(loan_date, INTERVAL 14 DAY) WHERE due_date IS NULL;
